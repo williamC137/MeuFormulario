@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Meu Formulário</title>
+</head>
+<body>
+    <div id="form_field">
+        <div id="main_title">
+            <h1>Formulário de Conhecimentos</h1>
+        </div>
+        <form>
+            <fieldset class="identification_group">
+                <div class="field">
+                    <label for="name"><strong>Nome</strong></label><br>
+                    <input type="text" name="name" id="name" required>
+                </div>
+                <div class="field">
+                    <label for="surname" id="text_surname"><strong>Sobrenome</strong></label><br>
+                    <input type="text" name="surname" id="surname" required>
+                </div>
+            </fieldset>
+            <fieldset class="college_group">
+                <div class="field">
+                    <label for="study_area"><strong>Graduação</strong></label><br>
+                    <input type="text" name="study_area" id="study_area">
+                </div>
+                <div class="field">
+                    <label for="instution"><strong>Instituição</strong></label><br>
+                    <input type="text" name="instution" id="instution">
+                </div>
+                <div class="field">
+                    <label><strong>Situação</strong></label><br>
+                    <select id="situation" required>
+                        <option value="in_progress">Em andamento</option>
+                        <option value="concluded">Concluído</option>
+                    </select>
+                </div>
+            </fieldset>
+            <div class="selection">
+                <label><strong>Áreas de Conhecimento</strong></label>
+                <div class="itens">
+                    <label><input type="radio" name="html_css" value="html_css" checked>HTML e CSS</label><br>
+                    <label><input type="radio" name="java" value="java" checked>Java</label><br>
+                    <label><input type="radio" name="javascript" value="javascript" checked>JavaScript</label><br>
+                    <label><input type="radio" name="dvl_mobile" value="dvl_mobile">Desenvolvimento Mobile</label><br>
+                    <label><input type="radio" name="dvl_for_games" value="dvl_for_games">Desenvolvimento de Jogos</label><br>
+                    <label><input type="radio" name="python" value="python" checked>Python</label><br>
+                    <label><input type="radio" name="c_sharp" value="c_charp">C#</label><br>
+                    <label><input type="radio" name="c++" value="c++">C++</label><br>
+                    <label><input type="radio" name="c" value="c" checked>C</label><br>
+                    <label><input type="radio" name="php" value="php">PHP</label>
+
+                </div>
+            </div>
+            <div class="professional_experience">
+                <label for="experience" id="professional_experience_text"><strong>Experiência Profissional:</strong></label>
+                <textarea name="experience" id="field_experience" cols="60" rows="10"></textarea>
+            </div>
+            <button class="button" type="submit" onsubmit="">Concluído</button>
+        </form>
+    </div>
+    <script src="scrpit.js"></script>
+</body>
+</html>
