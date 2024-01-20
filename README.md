@@ -11,7 +11,7 @@
 * Experiência profissional
 ------------
 > [!important]
-> Para acessar o site basta acessar: [williamc137.github.io/MeuFormulario/](williamc137.github.io/MeuFormulario/)
+> Para acessar o site basta clicar no link: [williamc137.github.io/MeuFormulario/](williamc137.github.io/MeuFormulario/)
 
 > [!NOTE]
 > `Site feito com bastante carinho, se importando com responsividade e funcionalidade. Espero que goste.` 
